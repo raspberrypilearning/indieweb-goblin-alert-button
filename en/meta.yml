@@ -16,3 +16,5 @@ steps:
   - title: 'Make the browser react'
     completion:
       - 'external'
+  - title: 'Challenge: make the page choose an outcome'
+    challenge: true

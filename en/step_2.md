@@ -2,8 +2,6 @@
 
 You will centre the page on a bright background so the button has room to stand out.
 
-### Step 1
-
 Stay in `index.html` and add the start of your `<style>` block inside the `<head>`.
 
 <div class="c-project-code">

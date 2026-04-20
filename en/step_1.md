@@ -2,8 +2,6 @@
 
 You will change the tab title and the button label so the page already feels a bit more goblin-like.
 
-### Step 1
-
 Open `index.html` and change the text in the `<title>` tag and the `<button>` tag.
 
 <div class="c-project-code">

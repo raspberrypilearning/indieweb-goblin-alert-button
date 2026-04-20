@@ -2,8 +2,6 @@
 
 You will make the button big and obvious so it feels like the one thing this page is begging you to press.
 
-### Step 1
-
 Still inside the `<style>` block, add the button styles.
 
 <div class="c-project-code">

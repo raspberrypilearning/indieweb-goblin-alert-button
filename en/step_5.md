@@ -2,8 +2,6 @@
 
 You will add one inline script that makes the button open a browser-owned alert when it is clicked.
 
-### Step 1
-
 Add this `<script>` block near the bottom of `index.html`, then change the text inside the quoted alert message to any harmless silly warning you like.
 
 <div class="c-project-code">

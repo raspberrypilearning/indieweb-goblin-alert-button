@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Goblin Alert Button</title>
+    <title>Step 3 render</title>
     <style>
       * {
         box-sizing: border-box;
@@ -43,47 +43,13 @@
         margin: 14px 0 0;
         line-height: 1.5;
       }
-
-      button {
-        margin-top: 20px;
-        padding: 18px 24px;
-        border: 4px solid #1e1234;
-        border-radius: 999px;
-        background: #ff63b5;
-        color: #1e1234;
-        font: inherit;
-        font-size: 1.1rem;
-        font-weight: 900;
-        cursor: pointer;
-        box-shadow: 0 8px 0 #1e1234;
-      }
-
-      #result {
-        min-height: 3.2em;
-        padding: 12px;
-        border: 3px dashed #1e1234;
-        border-radius: 18px;
-        background: #fffbe8;
-      }
     </style>
   </head>
   <body>
     <main>
       <h1>One rude little browser alert</h1>
       <p>Press the button if you would like the browser to announce something completely harmless.</p>
-      <!-- This button asks the browser one harmless yes-or-no question. -->
       <button type="button">Press for goblin news</button>
-      <!-- This box shows the page result after the button is pressed. -->
-      <p id="result" aria-live="polite"></p>
     </main>
-
-    <script>
-      // This script makes the page react to the yes-or-no answer.
-      // Change the quoted question and both result messages to make them your own.
-      document.querySelector("button").setAttribute(
-        "onclick",
-        "document.querySelector('#result').textContent = window.confirm('Do you wish to join the goblin council?') ? 'Excellent. Your goblin badge is in the post.' : 'Coward. The goblin council is disappointed.'"
-      );
-    </script>
   </body>
 </html>
