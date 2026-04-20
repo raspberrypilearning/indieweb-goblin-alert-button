@@ -6,6 +6,10 @@ You will turn the plain content into a small bright panel with a bold heading an
 
 Stay in the same `<style>` block and add styles for `main`, `h1`, and `p`.
 
+You should already have the `body` styles from the last step in place. Put this new code directly underneath the `body` rule, inside the same `<style>` block.
+
+When you finish, your `<style>` block should have the `body` rule first, then these new `main`, `h1`, and `p` rules underneath it.
+
 <div class="c-project-code">
 
 --- code ---
@@ -13,9 +17,20 @@ Stay in the same `<style>` block and add styles for `main`, `h1`, and `p`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 23
-line_highlights: 23-42
+line_number_start: 12
+line_highlights: 23-45
 ---
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        color: #1e1234;
+        background: linear-gradient(180deg, #fff09c, #ffb0df 55%, #90f8ff 100%);
+      }
+
       main {
         width: min(420px, 100%);
         padding: 28px;
@@ -39,6 +54,9 @@ line_highlights: 23-42
         margin: 14px 0 0;
         line-height: 1.5;
       }
+
+    </style>
+  </head>
 --- /code ---
 
 </div>
