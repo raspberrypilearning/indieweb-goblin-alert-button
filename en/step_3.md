@@ -4,11 +4,7 @@ You will turn the plain content into a small bright panel with a bold heading an
 
 ### Step 1
 
-Stay in the same `<style>` block and add styles for `main`, `h1`, and `p`.
-
-You should already have the `body` styles from the last step in place. Put this new code directly underneath the `body` rule, inside the same `<style>` block.
-
-When you finish, your `<style>` block should have the `body` rule first, then these new `main`, `h1`, and `p` rules underneath it.
+Stay in the same `<style>` block and add the `main` rule directly underneath the `body` rule.
 
 <div class="c-project-code">
 
@@ -17,18 +13,9 @@ When you finish, your `<style>` block should have the `body` rule first, then th
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 12
-line_highlights: 23-45
+line_number_start: 21
+line_highlights: 23-33
 ---
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        padding: 24px;
-        font-family: "Trebuchet MS", Verdana, sans-serif;
-        color: #1e1234;
-        background: linear-gradient(180deg, #fff09c, #ffb0df 55%, #90f8ff 100%);
       }
 
       main {
@@ -42,6 +29,25 @@ line_highlights: 23-45
           0 0 0 6px #ffffff,
           0 16px 0 #1e1234;
       }
+--- /code ---
+
+</div>
+
+### Step 2
+
+Underneath the `main` rule, add the `h1` rule to make the heading larger and bolder.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
+line_highlights: 35-40
+---
+      }
 
       h1 {
         margin: 0;
@@ -49,14 +55,32 @@ line_highlights: 23-45
         line-height: 0.95;
         text-transform: uppercase;
       }
+--- /code ---
+
+</div>
+
+### Step 3
+
+Underneath the `h1` rule, add the `p` rule so the paragraph has some spacing and stays easy to read.
+
+When you finish, your `<style>` block should have the `body` rule first, then the `main`, `h1`, and `p` rules underneath it.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 40
+line_highlights: 42-45
+---
+      }
 
       p {
         margin: 14px 0 0;
         line-height: 1.5;
       }
-
-    </style>
-  </head>
 --- /code ---
 
 </div>
