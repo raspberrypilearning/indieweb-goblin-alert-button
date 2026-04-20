@@ -14,7 +14,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 70
-line_highlights: 75-76
+line_highlights: 75
 ---
   <body>
     <main>
@@ -78,7 +78,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 80
-line_highlights: 83-86
+line_highlights: 81-83
 ---
     <script>
       document.querySelector("button").setAttribute(
