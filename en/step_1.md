@@ -1,45 +1,45 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Name the page and the button</h2>
 
-A brief description - one or two sentences. 
+You will change the tab title and the button label so the page already feels a bit more goblin-like.
 
---- print-only ---
+### Step 1
 
-![ALT TEXT](images/IMAGE.png)
+Open `index.html` and change the text in the `<title>` tag and the `<button>` tag.
 
---- /print-only ---
+<div class="c-project-code">
 
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 1
+line_highlights: 6,13
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Goblin Alert Button</title>
+  </head>
+  <body>
+    <main>
+      <h1>One rude little browser alert</h1>
+      <p>Press the button if you would like the browser to announce something completely harmless.</p>
+      <!-- Change the label on this button. -->
+      <button type="button">Press for goblin news</button>
+    </main>
+  </body>
 </html>
+--- /code ---
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+<h2 class="c-project-heading--task">Test</h2>
 
-### You will need:
-- a
-- b
-- c
+**Run your code:** You should see your new button label on the page, and the browser tab title should change too.
+
+<div class="c-project-output">
+  <img src="images/step_1_output.png" alt="Observed project output after this step.">
+</div>

@@ -1,14 +1,18 @@
-title: Project title in sentence case
 hero_image: images/banner.png
 description: A short description of the project
 listed: false
 pdf: false
+title: 'Indieweb Goblin Alert Button'
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: 'Name the page and the button'
+  - title: 'Add the page background'
+  - title: 'Style the panel'
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - 'engaged'
+  - title: 'Style the button'
     completion:
-      - external
+      - 'internal'
+  - title: 'Make the browser react'
+    completion:
+      - 'external'
