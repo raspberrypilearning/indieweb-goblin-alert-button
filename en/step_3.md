@@ -1,96 +1,55 @@
-<h2 class="c-project-heading--task">Style the panel</h2>
+<h2 class="c-project-heading--task">Give it terminally bad taste</h2>
 
-You will turn the plain content into a small bright panel with a bold heading and readable text.
+Change the custom properties at the top of `style.css` so the popup artefact gets darker, louder, and more dramatic.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in the same `<style>` block and add the `main` rule directly underneath the `body` rule.
+Open `style.css` and edit the values inside `:root`. These custom properties control the page background, the panel colours, the accent colours, the border size, the font, and the panel width.
+
+<div class="c-project-tip">
+
+<h3>Tip</h3>
+
+<p>Pick colours that feel like a cursed browser warning, a fake software installer, or a popup that absolutely should not be trusted.</p>
+
+<p>Small value changes can make the page feel more sugary, more chaotic, or more fake-dangerous.</p>
+
+<p><a href="https://www.google.com/search?q=web+colour+picker" target="_blank" rel="noopener noreferrer">Open the Google web colour picker in a new tab</a> if you want help choosing colours.</p>
+
+</div>
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 21
-line_highlights: 23-33
+line_number_start: 1
+line_highlights: 2-13
 ---
-      }
-
-      main {
-        width: min(420px, 100%);
-        padding: 28px;
-        text-align: center;
-        border: 5px solid #1e1234;
-        border-radius: 24px;
-        background: rgba(255, 255, 255, 0.9);
-        box-shadow:
-          0 0 0 6px #ffffff,
-          0 16px 0 #1e1234;
-      }
+/* Build a cursed popup artefact with one suspicious browser button. */
+:root {
+  --page-bg: #120014;
+  --ink: #26001b;
+  --panel-bg: #ffd8f2;
+  --accent: #ff73c6;
+  --accent-hot: #7eeeff;
+  --accent-warning: #ffe45a;
+  --shadow-color: #170011;
+  --border-size: 5px;
+  --corner-size: 20px;
+  --body-font: Verdana, Geneva, sans-serif;
+  --panel-width: 35rem;
+}
 --- /code ---
 
 </div>
 
-### Step 2
+## Now run your code
 
-Underneath the `main` rule, add the `h1` rule to make the heading larger and bolder.
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 33
-line_highlights: 35-40
----
-      }
-
-      h1 {
-        margin: 0;
-        font-size: clamp(2rem, 8vw, 3rem);
-        line-height: 0.95;
-        text-transform: uppercase;
-      }
---- /code ---
-
-</div>
-
-### Step 3
-
-Underneath the `h1` rule, add the `p` rule so the paragraph has some spacing and stays easy to read.
-
-When you finish, your `<style>` block should have the `body` rule first, then the `main`, `h1`, and `p` rules underneath it.
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 40
-line_highlights: 42-45
----
-      }
-
-      p {
-        margin: 14px 0 0;
-        line-height: 1.5;
-      }
---- /code ---
-
-</div>
-
-<h2 class="c-project-heading--task">Test</h2>
-
-**Run your code:** You should now see the heading and text sitting inside a bright little panel.
-
-Try changing the colour values and the `border` or `box-shadow` values to make the panel feel more like your own weird little web toy. If you want help picking colours, open the <a href="https://www.google.com/search?q=color+picker" target="_blank" rel="noopener noreferrer">Google colour picker</a> in a new tab.
+The page should still work the same way, but the popup artefact should feel much more cursed.
 
 <div class="c-project-output">
-  <img src="images/step_3_output.png" alt="Observed project output after this step.">
+  <img src="images/step_3_output.png" alt="Expected project output after step 3 showing darker colours and louder popup styling.">
 </div>

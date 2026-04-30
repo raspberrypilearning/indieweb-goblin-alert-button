@@ -1,8 +1,10 @@
-<h2 class="c-project-heading--task">Add the page background</h2>
+<h2 class="c-project-heading--task">Add the suspicious button</h2>
 
-You will centre the page on a bright background so the button has room to stand out.
+Add the warning paragraph and the button underneath the header so the page has something dangerous-looking to press.
 
-Stay in `index.html` and add the start of your `<style>` block inside the `<head>`.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Stay in `index.html` and put the new paragraph and button inside `<main class="popup-panel">`, underneath `<p class="status">`.
 
 <div class="c-project-code">
 
@@ -11,41 +13,24 @@ Stay in `index.html` and add the start of your `<style>` block inside the `<head
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 6-22
+line_number_start: 11
+line_highlights: 15-16
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Goblin Alert Button</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        padding: 24px;
-        font-family: "Trebuchet MS", Verdana, sans-serif;
-        color: #1e1234;
-        background: linear-gradient(180deg, #fff09c, #ffb0df 55%, #90f8ff 100%);
-      }
-    </style>
-  </head>
-</html>
+    <main class="popup-panel">
+      <p class="eyebrow">Recovered popup artefact // triggered at 1:43am</p>
+      <h1>warning_popup_FINAL-final.exe</h1>
+      <p class="status">mood: screenshot under review</p>
+      <p>Press the button if you enjoy suspicious popups and fake browser warnings from a profile nobody can trace back to you.</p>
+      <button type="button" class="panic-button">press if you read the tiny cursed text</button>
+    </main>
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-**Run your code:** You should now see the page centred on a loud background, even though the content still looks plain.
+You should now see the warning text and one large suspicious button.
 
 <div class="c-project-output">
-  <img src="images/step_2_output.png" alt="Observed project output after this step.">
+  <img src="images/step_2_output.png" alt="Expected project output after step 2 showing the warning text and the suspicious button.">
 </div>

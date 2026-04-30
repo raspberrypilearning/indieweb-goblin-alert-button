@@ -1,35 +1,10 @@
-<h2 class="c-project-heading--task">Challenge: make the page choose an outcome</h2>
+<h2 class="c-project-heading--task">Make the page choose an outcome</h2>
 
-If you want to stretch the project, turn your alert button into a yes-or-no confirm button that writes one of two silly results on the page.
+Replace the alert script so the browser asks a yes-or-no question and the page shows one result for OK and another for Cancel.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Make this change</h2>
 
-Inside `<main>`, add a result paragraph underneath the button so the page has somewhere to show the answer.
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 70
-line_highlights: 75
----
-  <body>
-    <main>
-      <h1>One rude little browser alert</h1>
-      <p>Press the button if you would like the browser to announce something completely harmless.</p>
-      <button type="button">Press for goblin news</button>
-      <p id="result" aria-live="polite"></p>
-    </main>
---- /code ---
-
-</div>
-
-### Step 2
-
-Still inside the `<style>` block, add the `#result` rule underneath the `button` rule so the message has a visible box.
+Stay in `index.html` and replace the old script with this version.
 
 <div class="c-project-code">
 
@@ -38,52 +13,13 @@ Still inside the `<style>` block, add the `#result` rule underneath the `button`
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 47
-line_highlights: 61-67
----
-      button {
-        margin-top: 20px;
-        padding: 18px 24px;
-        border: 4px solid #1e1234;
-        border-radius: 999px;
-        background: #ff63b5;
-        color: #1e1234;
-        font: inherit;
-        font-size: 1.1rem;
-        font-weight: 900;
-        cursor: pointer;
-        box-shadow: 0 8px 0 #1e1234;
-      }
-
-      #result {
-        min-height: 3.2em;
-        padding: 12px;
-        border: 3px dashed #1e1234;
-        border-radius: 18px;
-        background: #fffbe8;
-      }
---- /code ---
-
-</div>
-
-### Step 3
-
-Now replace the old alert script with this one so the browser asks a silly question and the page shows a different result for OK or Cancel.
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 80
-line_highlights: 81-83
+line_number_start: 20
+line_highlights: 21-24
 ---
     <script>
-      document.querySelector("button").setAttribute(
+      document.querySelector(".panic-button").setAttribute(
         "onclick",
-        "document.querySelector('#result').textContent = window.confirm('Do you wish to join the goblin council?') ? 'Excellent. Your goblin badge is in the post.' : 'Coward. The goblin council is disappointed.'"
+        "document.querySelector('#result').textContent = window.confirm('Do you accept the terms of this extremely bad popup?') ? 'Noted. Your desktop has been added to the watchlist.' : 'Too late. The popup log still says you hovered here at 1:43am.'"
       );
     </script>
   </body>
@@ -92,12 +28,12 @@ line_highlights: 81-83
 
 </div>
 
-The confirm box belongs to the browser, so you do not style it with CSS. If the dialog is ignored, browsers treat the result like Cancel, so the result text should still change sensibly.
+The confirm box belongs to the browser, so you do not style it with CSS. Browsers treat ignored dialogs like Cancel, so the page should still show one sensible result.
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
 Click the button and the page should show one outcome for OK and a different outcome for Cancel.
 
 <div class="c-project-output">
-  <img src="images/step_6_output.png" alt="Observed project output after this step.">
+  <img src="images/step_6_output.png" alt="Expected project output after step 6 showing the page result after the browser confirm choice.">
 </div>

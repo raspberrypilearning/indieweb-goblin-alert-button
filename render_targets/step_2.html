@@ -3,25 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>warning_popup_FINAL-final.exe</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Step 2 render</title>
+    <link rel="stylesheet" href="render.css">
   </head>
   <body>
-    <!-- This popup absolutely should not have been installed. -->
     <main class="popup-panel">
       <p class="eyebrow">Recovered popup artefact // triggered at 1:43am</p>
       <h1>warning_popup_FINAL-final.exe</h1>
       <p class="status">mood: screenshot under review</p>
       <p>Press the button if you enjoy suspicious popups and fake browser warnings from a profile nobody can trace back to you.</p>
       <button type="button" class="panic-button">press if you read the tiny cursed text</button>
-      <p id="result" aria-live="polite"></p>
     </main>
-
-    <script>
-      document.querySelector(".panic-button").setAttribute(
-        "onclick",
-        "document.querySelector('#result').textContent = window.confirm('Do you accept the terms of this extremely bad popup?') ? 'Noted. Your desktop has been added to the watchlist.' : 'Too late. The popup log still says you hovered here at 1:43am.'"
-      );
-    </script>
   </body>
 </html>

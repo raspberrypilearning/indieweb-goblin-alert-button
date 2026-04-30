@@ -1,20 +1,19 @@
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a cursed popup artefact with a suspicious browser button
 listed: false
 pdf: false
-title: 'Indieweb Goblin Alert Button'
+title: 'Indieweb Suspicious Popup Button'
 landing: true
 steps:
-  - title: 'Name the page and the button'
-  - title: 'Add the page background'
-  - title: 'Style the panel'
+  - title: 'Add the popup artefact header'
+  - title: 'Add the suspicious button'
+  - title: 'Give it terminally bad taste'
     completion:
       - 'engaged'
-  - title: 'Style the button'
+  - title: 'Make the browser shout'
     completion:
       - 'internal'
-  - title: 'Make the browser react'
+  - title: 'Add the evidence box'
+  - title: 'Make the page choose an outcome'
     completion:
       - 'external'
-  - title: 'Challenge: make the page choose an outcome'
-    challenge: true

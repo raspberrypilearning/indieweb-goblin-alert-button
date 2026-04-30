@@ -1,8 +1,10 @@
-<h2 class="c-project-heading--task">Style the button</h2>
+<h2 class="c-project-heading--task">Make the browser shout</h2>
 
-You will make the button big and obvious so it feels like the one thing this page is begging you to press.
+Add one small script so clicking the button makes the browser show a popup alert.
 
-Still inside the `<style>` block, add the button styles.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Stay in `index.html` and put this `<script>` block underneath `</main>`.
 
 <div class="c-project-code">
 
@@ -11,30 +13,29 @@ Still inside the `<style>` block, add the button styles.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 43
-line_highlights: 43-54
+line_number_start: 18
+line_highlights: 20-24
 ---
-      button {
-        margin-top: 20px;
-        padding: 18px 24px;
-        border: 4px solid #1e1234;
-        border-radius: 999px;
-        background: #ff63b5;
-        color: #1e1234;
-        font: inherit;
-        font-size: 1.1rem;
-        font-weight: 900;
-        cursor: pointer;
-        box-shadow: 0 8px 0 #1e1234;
-      }
+    </main>
+
+    <script>
+      document.querySelector(".panic-button").setAttribute(
+        "onclick",
+        "alert('Warning: this profile has attempted to install glitter.exe.')"
+      );
+    </script>
+  </body>
+</html>
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+The popup belongs to the browser, so you do not style it with CSS.
 
-**Run your code:** You should now see one large button that looks much more fun to click.
+## Now run your code
+
+Click the button and the browser should show your warning popup.
 
 <div class="c-project-output">
-  <img src="images/step_4_output.png" alt="Observed project output after this step.">
+  <img src="images/step_4_output.png" alt="Expected project output after step 4 showing the popup page before the browser alert appears.">
 </div>
