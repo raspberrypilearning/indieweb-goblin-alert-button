@@ -2,9 +2,11 @@
 
 Add the visible header inside `<main class="popup-panel">` so the page stops looking empty.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
+## Step 1
+Run the code to see the unstyled page.
 
-The starter file has an empty `<main>` element, so add the eyebrow, the main heading, and the mood line inside it.
+## Step 2
+The starter file has an empty `<main>` element, so add the top box content, the main heading, and the mood line inside it.
 
 <div class="c-project-code">
 
