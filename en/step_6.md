@@ -4,7 +4,7 @@ Replace the alert script so the browser asks a yes-or-no question and the page s
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and replace the old script with this version.
+Replace the old script with this version.
 
 <div class="c-project-code">
 

@@ -4,7 +4,7 @@ Add one result paragraph so the page has somewhere to show an answer later.
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put the new paragraph underneath the button inside `<main class="popup-panel">`.
+Put the new paragraph underneath the button inside `<main class="popup-panel">`.
 
 <div class="c-project-tip">
 

@@ -4,7 +4,7 @@ Add the warning paragraph and the button underneath the header so the page has s
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put the new paragraph and button inside `<main class="popup-panel">`, underneath `<p class="status">`.
+Put the new paragraph and button inside `<main class="popup-panel">`, underneath `<p class="status">`.
 
 <div class="c-project-code">
 

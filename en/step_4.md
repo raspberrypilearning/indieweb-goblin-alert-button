@@ -4,7 +4,7 @@ Add one small script so clicking the button makes the browser show a popup alert
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put this `<script>` block underneath `</main>`.
+Go back to `index.html` and put this `<script>` block underneath `</main>`.
 
 <div class="c-project-code">
 
