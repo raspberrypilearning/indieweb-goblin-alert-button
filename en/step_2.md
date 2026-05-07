@@ -4,7 +4,7 @@ Add the warning paragraph and the button underneath the header so the page has s
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Put the new paragraph and button inside `<main class="popup-panel">`, underneath `<p class="status">`.
+Add the warning paragraph and button inside the tags, underneath the status:
 
 <div class="c-project-code">
 
@@ -13,8 +13,8 @@ Put the new paragraph and button inside `<main class="popup-panel">`, underneath
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 15-16
+line_number_start: 9
+line_highlights: 13-14
 ---
     <main class="popup-panel">
       <p class="eyebrow">Recovered popup artefact // triggered at 1:43am</p>

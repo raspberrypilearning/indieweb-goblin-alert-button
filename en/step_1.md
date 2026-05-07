@@ -1,12 +1,12 @@
 <h2 class="c-project-heading--task">Add the popup artefact header</h2>
 
-Add the visible header inside `<main class="popup-panel">` so the page stops looking empty.
+Add the visible header inside the tags so the page stops looking empty.
 
 ## Step 1
-Run the code to see the unstyled page.
+Run the page first to see what you've got now.
 
 ## Step 2
-The starter file has an empty `<main>` element, so add the top box content, the main heading, and the mood line inside it.
+The starter file has an empty `<main>` element, so add the small top label, the main heading, and the mood line inside it.
 
 <div class="c-project-code">
 
@@ -16,7 +16,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 10-14
+line_highlights: 10-12
 ---
 <html lang="en">
   <head>
@@ -34,6 +34,20 @@ line_highlights: 10-14
   </body>
 </html>
 --- /code ---
+
+</div>
+
+<div class="c-project-tip">
+
+<h3>Tip</h3>
+
+<p>`Eyebrow` is a common name for a small label above a main heading.</p>
+<p>It is often used like a label or category tag by developers. You might also see:</p>
+<ul>
+  <li><code>overline</code></li>
+  <li><code>kicker</code></li>
+  <li><code>label</code></li>
+</ul>
 
 </div>
 

@@ -13,8 +13,8 @@ Go back to `index.html` and put this `<script>` block underneath `</main>`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 18
-line_highlights: 20-24
+line_number_start: 15
+line_highlights: 17-22
 ---
     </main>
 
@@ -30,7 +30,7 @@ line_highlights: 20-24
 
 </div>
 
-The popup belongs to the browser, so you do not style it with CSS.
+The popup belongs to the browser, so you do not style it with CSS. The screenshot below shows the page before the alert appears, because browser popups look different in different browsers.
 
 ## Now run your code
 

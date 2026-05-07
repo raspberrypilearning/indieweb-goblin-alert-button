@@ -4,13 +4,13 @@ Add one result paragraph so the page has somewhere to show an answer later.
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Put the new paragraph underneath the button inside `<main class="popup-panel">`.
+Put the new paragraph underneath the button.
 
 <div class="c-project-tip">
 
 <h3>Tip</h3>
 
-<p>The `#result` style is already waiting in `style.css`, so the box will appear as soon as you add the HTML.</p>
+<p>The `#result` style is already in `style.css`, so the box will appear as soon as you add the HTML.</p>
 
 </div>
 
@@ -21,8 +21,8 @@ Put the new paragraph underneath the button inside `<main class="popup-panel">`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 17
+line_number_start: 9
+line_highlights: 15
 ---
     <main class="popup-panel">
       <p class="eyebrow">Recovered popup artefact // triggered at 1:43am</p>

@@ -13,8 +13,8 @@ Replace the old script with this version.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 20
-line_highlights: 21-24
+line_number_start: 18
+line_highlights: 19-22
 ---
     <script>
       document.querySelector(".panic-button").setAttribute(
