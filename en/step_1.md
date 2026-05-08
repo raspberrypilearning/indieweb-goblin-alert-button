@@ -41,7 +41,7 @@ line_highlights: 10-12
 
 <h3>Tip</h3>
 
-<p>`Eyebrow` is a common name for a small label above a main heading.</p>
+<p>`Eyebrow` is another name for a small label above a main heading.</p>
 <p>It is often used like a label or category tag by developers. You might also see:</p>
 <ul>
   <li><code>overline</code></li>

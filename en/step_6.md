@@ -28,12 +28,12 @@ line_highlights: 19-22
 
 </div>
 
-The confirm box belongs to the browser, so you do not style it with CSS. Browsers treat ignored dialogs like Cancel, so the page should still show one sensible result.
+The confirm box belongs to the browser, so you do not style it with CSS. The screenshot below shows one example of how the confirm box might look, and browsers treat ignored dialogs like Cancel.
 
 ## Now run your code
 
-Click the button and the page should show one outcome for OK and a different outcome for Cancel.
+Click the button and the browser should show the confirm box. Choose OK or Cancel and the page should then show the matching outcome.
 
 <div class="c-project-output">
-  <img src="images/step_6_output.png" alt="Expected project output after step 6 showing the page result after the browser confirm choice.">
+  <img src="images/popup2.png" alt="Expected browser confirm popup after clicking the button in step 6.">
 </div>

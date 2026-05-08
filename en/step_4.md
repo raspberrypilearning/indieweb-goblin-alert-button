@@ -30,12 +30,12 @@ line_highlights: 17-22
 
 </div>
 
-The popup belongs to the browser, so you do not style it with CSS. The screenshot below shows the page before the alert appears, because browser popups look different in different browsers.
+The popup belongs to the browser, so you do not style it with CSS. The screenshot below shows one example of how the alert might look, but browser popups vary between browsers.
 
 ## Now run your code
 
 Click the button and the browser should show your warning popup.
 
 <div class="c-project-output">
-  <img src="images/step_4_output.png" alt="Expected project output after step 4 showing the popup page before the browser alert appears.">
+  <img src="images/popup1.png" alt="Expected browser alert after clicking the button in step 4.">
 </div>
