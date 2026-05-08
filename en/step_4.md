@@ -30,7 +30,7 @@ line_highlights: 17-22
 
 </div>
 
-The popup belongs to the browser, so you do not style it with CSS. The screenshot below shows one example of how the alert might look, but browser popups vary between browsers.
+The popup belongs to the browser, so you can't style it with CSS. The screenshot below shows one example of how the alert might look, but browser popups vary between browsers.
 
 ## Now run your code
 
