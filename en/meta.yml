@@ -1,6 +1,6 @@
 hero_image: images/banner.png
 description: Make a cursed popup artefact with a suspicious browser button
-listed: true
+listed: false
 pdf: false
 title: 'Indieweb Suspicious Popup Button'
 landing: true
