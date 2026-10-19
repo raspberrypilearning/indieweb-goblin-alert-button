@@ -19,9 +19,9 @@ line_highlights: 13-14
     <main class="popup-panel">
       <p class="eyebrow">Recovered popup artefact // triggered at 1:43am</p>
       <h1>warning_popup_FINAL-final.exe</h1>
-      <p class="status">mood: screenshot under review</p>
+      <p class="status">Mood: Screenshot under review</p>
       <p>Press the button if you enjoy suspicious popups and fake browser warnings from a profile nobody can trace back to you.</p>
-      <button type="button" class="panic-button">press if you read the tiny cursed text</button>
+      <button type="button" class="panic-button">Press if you read the tiny cursed text</button>
     </main>
 --- /code ---
 
@@ -29,7 +29,7 @@ line_highlights: 13-14
 
 ## Now run your code
 
-You should now see the warning text and one large suspicious button.
+You should now see the warning text and one large, suspicious button.
 
 <div class="c-project-output">
   <img src="images/step_2_output.png" alt="Expected project output after step 2 showing the warning text and the suspicious button.">
